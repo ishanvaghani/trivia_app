@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.MainActivity">
+
+    <include android:id="@+id/name_layout"
+        layout="@layout/enter_name_layout" />
+
+    <include layout="@layout/answers_layout"
+        android:id="@+id/answers_layout" />
+
+    <include layout="@layout/questions_layout"
+        android:id="@+id/questions_layout" />
+
+</FrameLayout>
